@@ -1940,4 +1940,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: scale(1.1);
 }
 
+/* Private project card (NDA - no public link) */
+.project-img-private {
+  background: linear-gradient(135deg, hsl(220, 30%, 17%), hsl(220, 30%, 10%));
+  border: 1px dashed var(--jet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.project-private-icon {
+  font-size: 3rem;
+  color: var(--tech-cyan);
+  opacity: 0.75;
+}
+
+.project-nda {
+  color: var(--light-gray-70);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+  line-height: 1.4;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
 }

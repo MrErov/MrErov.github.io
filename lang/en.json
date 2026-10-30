@@ -109,8 +109,9 @@
       "category": "AI/ML"
     },
     "project3": {
-      "title": "Hiresprint Platform",
-      "category": "Backend"
+      "title": "Private Enterprise Backend",
+      "category": "Private / NDA",
+      "nda": "Private Enterprise Project (NDA)"
     }
   },
   "contact": {
