@@ -1,0 +1,125 @@
+{
+  "page": {
+    "title": "Eurick Ospino - Ingeniero Backend & IA"
+  },
+  "sidebar": {
+    "name": "Eurick Ospino",
+    "title": "Ingeniero Backend & IA",
+    "showContacts": "Mostrar Contactos"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "resume": "Currículum",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "contact": {
+    "email": "Correo",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Ubicación",
+    "remote": "Remoto"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Ingeniero Backend & IA especializado en Python, Odoo y LangChain. Construyo sistemas escalables con FastAPI, Docker y PostgreSQL, aplicando prácticas TDD para entregar soluciones robustas. Actualmente enfocado en aplicaciones impulsadas por IA y personalización de ERP.",
+    "p2": "Experiencia desarrollando módulos fiscales para Odoo (300+ tests), sistemas RAG con LangChain y despliegues containerizados. Abierto a oportunidades remotas en ingeniería IA/Backend."
+  },
+  "service": {
+    "title": "Qué hago",
+    "backend": {
+      "title": "Desarrollo Backend",
+      "desc": "Construcción de APIs REST con FastAPI, Python y PostgreSQL. Arquitectura limpia, TDD y despliegues containerizados con Docker."
+    },
+    "odoo": {
+      "title": "Desarrollo Odoo",
+      "desc": "Desarrollo de módulos personalizados, cumplimiento fiscal e integraciones ERP. 300+ tests garantizando fiabilidad en producción."
+    },
+    "ai": {
+      "title": "Ingeniería IA",
+      "desc": "Sistemas RAG, agentes LangChain y aplicaciones con LLM. Bases de datos vectoriales, prompt engineering y frameworks de evaluación."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "desc": "Containerización con Docker, pipelines CI/CD, despliegues en AWS/GCP. Infraestructura como código y monitoreo."
+    }
+  },
+  "skills": {
+    "title": "Stack Tecnológico",
+    "python": "Python",
+    "odoo": "Framework Odoo",
+    "fastapi": "FastAPI",
+    "docker": "Docker",
+    "langchain": "LangChain / LLMs",
+    "postgresql": "PostgreSQL",
+    "tdd": "TDD / Testing",
+    "aws": "AWS / Cloud"
+  },
+  "featured": {
+    "title": "Enlaces Destacados y CV",
+    "github": "Perfil GitHub",
+    "linkedin": "Perfil LinkedIn",
+    "profileReadme": "README de Perfil",
+    "cvEn": "Descargar CV (EN)",
+    "cvEs": "Descargar CV (ES)"
+  },
+  "resume": {
+    "title": "Currículum",
+    "education": "Educación",
+    "experience": "Experiencia",
+    "competencies": "Competencias Clave",
+    "edu1": {
+      "title": "Ingeniería de Sistemas / Ciencias de la Computación",
+      "desc": "Base sólida en algoritmos, estructuras de datos, bases de datos y principios de ingeniería de software."
+    },
+    "edu2": {
+      "title": "Certificación Odoo / Formación Especializada",
+      "desc": "Desarrollo avanzado en Odoo, arquitectura de módulos, optimización ORM y módulos de localización fiscal."
+    },
+    "exp1": {
+      "title": "Ingeniero Backend & IA (Freelance / Contrato)",
+      "desc": "Desarrollo de módulos fiscales Odoo (ContaFis), asistentes IA con LangChain/RAG y microservicios FastAPI. Implementación de TDD con 300+ suites de tests, containerización Docker y pipelines CI/CD."
+    },
+    "exp2": {
+      "title": "Desarrollador Odoo",
+      "desc": "Desarrollo de módulos personalizados para cumplimiento fiscal latinoamericano. Optimización PostgreSQL, testing automatizado y soporte técnico a clientes."
+    },
+    "exp3": {
+      "title": "Desarrollador Python Junior",
+      "desc": "Desarrollo de APIs REST con FastAPI/Flask. Diseño de bases de datos, testing unitario y despliegues con Docker."
+    },
+    "comp1": "Arquitectura Backend",
+    "comp2": "Integración IA/ML",
+    "comp3": "Diseño de Bases de Datos",
+    "comp4": "Prácticas DevOps"
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "filterAll": "Todos",
+    "filterOdoo": "Odoo",
+    "filterAI": "IA/ML",
+    "filterBackend": "Backend",
+    "selectCategory": "Seleccionar categoría",
+    "project1": {
+      "title": "ContaFis Odoo",
+      "category": "Odoo"
+    },
+    "project2": {
+      "title": "ContaFis AI Assistant",
+      "category": "IA/ML"
+    },
+    "project3": {
+      "title": "Plataforma Hiresprint",
+      "category": "Backend"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "formTitle": "Ponte en contacto",
+    "namePlaceholder": "Nombre completo",
+    "emailPlaceholder": "Dirección de correo",
+    "messagePlaceholder": "Tu mensaje",
+    "sendBtn": "Enviar mensaje",
+    "orEmail": "O contáctame directamente en eurickramiro.ospinovelasquez@gmail.com"
+  }
+}

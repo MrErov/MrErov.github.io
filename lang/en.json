@@ -1,0 +1,125 @@
+{
+  "page": {
+    "title": "Eurick Ospino - Backend & AI Engineer"
+  },
+  "sidebar": {
+    "name": "Eurick Ospino",
+    "title": "Backend & AI Engineer",
+    "showContacts": "Show Contacts"
+  },
+  "nav": {
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "contact": {
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "location": "Location",
+    "remote": "Remote"
+  },
+  "about": {
+    "title": "About me",
+    "p1": "Backend & AI Engineer specializing in Python, Odoo, and LangChain. I build scalable systems with FastAPI, Docker, and PostgreSQL, applying TDD practices to deliver robust solutions. Currently focused on AI-powered applications and ERP customization.",
+    "p2": "Experienced in developing fiscal modules for Odoo (300+ tests), RAG systems with LangChain, and containerized deployments. Open to remote opportunities in AI/Backend engineering."
+  },
+  "service": {
+    "title": "What I'm doing",
+    "backend": {
+      "title": "Backend Development",
+      "desc": "Building REST APIs with FastAPI, Python, and PostgreSQL. Clean architecture, TDD, and containerized deployments with Docker."
+    },
+    "odoo": {
+      "title": "Odoo Development",
+      "desc": "Custom module development, fiscal compliance, and ERP integrations. 300+ tests ensuring reliability in production environments."
+    },
+    "ai": {
+      "title": "AI Engineering",
+      "desc": "RAG systems, LangChain agents, and LLM-powered applications. Vector databases, prompt engineering, and evaluation frameworks."
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "desc": "Docker containerization, CI/CD pipelines, AWS/GCP deployments. Infrastructure as code and monitoring."
+    }
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "python": "Python",
+    "odoo": "Odoo Framework",
+    "fastapi": "FastAPI",
+    "docker": "Docker",
+    "langchain": "LangChain / LLMs",
+    "postgresql": "PostgreSQL",
+    "tdd": "TDD / Testing",
+    "aws": "AWS / Cloud"
+  },
+  "featured": {
+    "title": "Featured Links & CV",
+    "github": "GitHub Profile",
+    "linkedin": "LinkedIn Profile",
+    "profileReadme": "Profile README",
+    "cvEn": "Download CV (EN)",
+    "cvEs": "Download CV (ES)"
+  },
+  "resume": {
+    "title": "Resume",
+    "education": "Education",
+    "experience": "Experience",
+    "competencies": "Core Competencies",
+    "edu1": {
+      "title": "Systems Engineering / Computer Science",
+      "desc": "Strong foundation in algorithms, data structures, databases, and software engineering principles."
+    },
+    "edu2": {
+      "title": "Odoo Certification / Specialized Training",
+      "desc": "Advanced Odoo development, module architecture, ORM optimization, and fiscal localization modules."
+    },
+    "exp1": {
+      "title": "Backend & AI Engineer (Freelance / Contract)",
+      "desc": "Developing Odoo fiscal modules (ContaFis), AI assistants with LangChain/RAG, and FastAPI microservices. Implementing TDD with 300+ test suites, Docker containerization, and CI/CD pipelines."
+    },
+    "exp2": {
+      "title": "Odoo Developer",
+      "desc": "Custom module development for Latin American fiscal compliance. PostgreSQL optimization, automated testing, and client-facing technical support."
+    },
+    "exp3": {
+      "title": "Junior Python Developer",
+      "desc": "REST API development with FastAPI/Flask. Database design, unit testing, and Docker deployments."
+    },
+    "comp1": "Backend Architecture",
+    "comp2": "AI/ML Integration",
+    "comp3": "Database Design",
+    "comp4": "DevOps Practices"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "filterAll": "All",
+    "filterOdoo": "Odoo",
+    "filterAI": "AI/ML",
+    "filterBackend": "Backend",
+    "selectCategory": "Select category",
+    "project1": {
+      "title": "ContaFis Odoo",
+      "category": "Odoo"
+    },
+    "project2": {
+      "title": "ContaFis AI Assistant",
+      "category": "AI/ML"
+    },
+    "project3": {
+      "title": "Hiresprint Platform",
+      "category": "Backend"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "formTitle": "Get in touch",
+    "namePlaceholder": "Full name",
+    "emailPlaceholder": "Email address",
+    "messagePlaceholder": "Your Message",
+    "sendBtn": "Send Message",
+    "orEmail": "Or reach me directly at eurickramiro.ospinovelasquez@gmail.com"
+  }
+}

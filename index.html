@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eurick Ospino - Backend & AI Engineer</title>
+  <title data-i18n="page.title">Eurick Ospino - Backend & AI Engineer</title>
 
   <!--
     - favicon
@@ -42,17 +42,17 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Eurick Ospino" width="80">
+          <img src="./assets/images/profile.jpg" alt="Eurick Ospino" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Eurick Ospino">Eurick Ospino</h1>
+          <h1 class="name" title="Eurick Ospino" data-i18n="sidebar.name">Eurick Ospino</h1>
 
-          <p class="title">Backend & AI Engineer</p>
+          <p class="title" data-i18n="sidebar.title">Backend & AI Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span data-i18n="sidebar.showContacts">Show Contacts</span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -72,7 +72,7 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <p class="contact-title" data-i18n="contact.email">Email</p>
 
               <a href="mailto:eurickramiro.ospinovelasquez@gmail.com" class="contact-link">eurickramiro.ospinovelasquez@gmail.com</a>
             </div>
@@ -86,7 +86,7 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">LinkedIn</p>
+              <p class="contact-title" data-i18n="contact.linkedin">LinkedIn</p>
 
               <a href="https://www.linkedin.com/in/eurick-ospino-18a75a134/" class="contact-link" target="_blank" rel="noopener">linkedin.com/in/eurick-ospino</a>
             </div>
@@ -100,7 +100,7 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">GitHub</p>
+              <p class="contact-title" data-i18n="contact.github">GitHub</p>
 
               <a href="https://github.com/MrErov" class="contact-link" target="_blank" rel="noopener">github.com/MrErov</a>
             </div>
@@ -114,9 +114,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Location</p>
+              <p class="contact-title" data-i18n="contact.location">Location</p>
 
-              <address>Remote</address>
+              <address data-i18n="contact.remote">Remote</address>
             </div>
 
           </li>
@@ -128,19 +128,19 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://github.com/MrErov" class="social-link" target="_blank" rel="noopener">
+            <a href="https://github.com/MrErov" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/eurick-ospino-18a75a134/" class="social-link" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/in/eurick-ospino-18a75a134/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="mailto:eurickramiro.ospinovelasquez@gmail.com" class="social-link">
+            <a href="mailto:eurickramiro.ospinovelasquez@gmail.com" class="social-link" aria-label="Email">
               <ion-icon name="mail-outline"></ion-icon>
             </a>
           </li>
@@ -170,22 +170,28 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link data-i18n="nav.about">About</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link data-i18n="nav.resume">Resume</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link data-i18n="nav.portfolio">Portfolio</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link data-i18n="nav.contact">Contact</button>
           </li>
 
         </ul>
+
+        <!-- Language Switcher -->
+        <div class="lang-switcher" id="lang-switcher">
+          <button class="lang-btn active" data-lang="en" aria-label="English">EN</button>
+          <button class="lang-btn" data-lang="es" aria-label="Español">ES</button>
+        </div>
 
       </nav>
 
@@ -200,15 +206,15 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title" data-i18n="about.title">About me</h2>
         </header>
 
         <section class="about-text">
-          <p>
+          <p data-i18n="about.p1">
             Backend & AI Engineer specializing in Python, Odoo, and LangChain. I build scalable systems with FastAPI, Docker, and PostgreSQL, applying TDD practices to deliver robust solutions. Currently focused on AI-powered applications and ERP customization.
           </p>
 
-          <p>
+          <p data-i18n="about.p2">
             Experienced in developing fiscal modules for Odoo (300+ tests), RAG systems with LangChain, and containerized deployments. Open to remote opportunities in AI/Backend engineering.
           </p>
         </section>
@@ -220,7 +226,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title" data-i18n="service.title">What I'm doing</h3>
 
           <ul class="service-list">
 
@@ -231,9 +237,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Backend Development</h4>
+                <h4 class="h4 service-item-title" data-i18n="service.backend.title">Backend Development</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="service.backend.desc">
                   Building REST APIs with FastAPI, Python, and PostgreSQL. Clean architecture, TDD, and containerized deployments with Docker.
                 </p>
               </div>
@@ -247,9 +253,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Odoo Development</h4>
+                <h4 class="h4 service-item-title" data-i18n="service.odoo.title">Odoo Development</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="service.odoo.desc">
                   Custom module development, fiscal compliance, and ERP integrations. 300+ tests ensuring reliability in production environments.
                 </p>
               </div>
@@ -263,9 +269,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI Engineering</h4>
+                <h4 class="h4 service-item-title" data-i18n="service.ai.title">AI Engineering</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="service.ai.desc">
                   RAG systems, LangChain agents, and LLM-powered applications. Vector databases, prompt engineering, and evaluation frameworks.
                 </p>
               </div>
@@ -279,9 +285,9 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">DevOps & Cloud</h4>
+                <h4 class="h4 service-item-title" data-i18n="service.devops.title">DevOps & Cloud</h4>
 
-                <p class="service-item-text">
+                <p class="service-item-text" data-i18n="service.devops.desc">
                   Docker containerization, CI/CD pipelines, AWS/GCP deployments. Infrastructure as code and monitoring.
                 </p>
               </div>
@@ -299,13 +305,13 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">Tech Stack</h3>
+          <h3 class="h3 skills-title" data-i18n="skills.title">Tech Stack</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
+                <h5 class="h5" data-i18n="skills.python">Python</h5>
                 <data value="95">95%</data>
               </div>
               <div class="skill-progress-bg">
@@ -315,7 +321,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">Odoo Framework</h5>
+                <h5 class="h5" data-i18n="skills.odoo">Odoo Framework</h5>
                 <data value="90">90%</data>
               </div>
               <div class="skill-progress-bg">
@@ -325,7 +331,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">FastAPI</h5>
+                <h5 class="h5" data-i18n="skills.fastapi">FastAPI</h5>
                 <data value="90">90%</data>
               </div>
               <div class="skill-progress-bg">
@@ -335,7 +341,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">Docker</h5>
+                <h5 class="h5" data-i18n="skills.docker">Docker</h5>
                 <data value="85">85%</data>
               </div>
               <div class="skill-progress-bg">
@@ -345,7 +351,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">LangChain / LLMs</h5>
+                <h5 class="h5" data-i18n="skills.langchain">LangChain / LLMs</h5>
                 <data value="85">85%</data>
               </div>
               <div class="skill-progress-bg">
@@ -355,7 +361,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">PostgreSQL</h5>
+                <h5 class="h5" data-i18n="skills.postgresql">PostgreSQL</h5>
                 <data value="85">85%</data>
               </div>
               <div class="skill-progress-bg">
@@ -365,7 +371,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">TDD / Testing</h5>
+                <h5 class="h5" data-i18n="skills.tdd">TDD / Testing</h5>
                 <data value="90">90%</data>
               </div>
               <div class="skill-progress-bg">
@@ -375,7 +381,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">AWS / Cloud</h5>
+                <h5 class="h5" data-i18n="skills.aws">AWS / Cloud</h5>
                 <data value="75">75%</data>
               </div>
               <div class="skill-progress-bg">
@@ -389,36 +395,42 @@
 
 
         <!--
-          - clients / certifications placeholder
+          - featured links / CV downloads
         -->
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Featured Links</h3>
+          <h3 class="h3 clients-title" data-i18n="featured.title">Featured Links & CV</h3>
 
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="https://github.com/MrErov" target="_blank" rel="noopener">
+              <a href="https://github.com/MrErov" target="_blank" rel="noopener" aria-label="GitHub Profile" data-i18n="featured.github" title="GitHub Profile">
                 <ion-icon name="logo-github" style="font-size: 2.4rem; color: var(--on-background);"></ion-icon>
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://www.linkedin.com/in/eurick-ospino-18a75a134/" target="_blank" rel="noopener">
+              <a href="https://www.linkedin.com/in/eurick-ospino-18a75a134/" target="_blank" rel="noopener" aria-label="LinkedIn Profile" data-i18n="featured.linkedin" title="LinkedIn Profile">
                 <ion-icon name="logo-linkedin" style="font-size: 2.4rem; color: var(--on-background);"></ion-icon>
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="https://github.com/MrErov" target="_blank" rel="noopener">
+              <a href="https://github.com/MrErov" target="_blank" rel="noopener" aria-label="GitHub Profile README" data-i18n="featured.profileReadme" title="Profile README">
                 <ion-icon name="person-outline" style="font-size: 2.4rem; color: var(--on-background);"></ion-icon>
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#" id="cv-link" onclick="alert('CV PDF will be available soon')">
-                <ion-icon name="document-text-outline" style="font-size: 2.4rem; color: var(--on-background);"></ion-icon>
+              <a href="./cv/cv-en.pdf" target="_blank" rel="noopener" aria-label="Download CV (EN)" data-i18n="featured.cvEn" title="Download CV (EN)" download>
+                <ion-icon name="document-text-outline" style="font-size: 2.4rem; color: var(--tech-cyan);"></ion-icon>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="./cv/cv-es.pdf" target="_blank" rel="noopener" aria-label="Descargar CV (ES)" data-i18n="featured.cvEs" title="Descargar CV (ES)" download>
+                <ion-icon name="document-text-outline" style="font-size: 2.4rem; color: var(--tech-green);"></ion-icon>
               </a>
             </li>
 
@@ -439,7 +451,7 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title" data-i18n="resume.title">Resume</h2>
         </header>
 
         <section class="timeline">
@@ -449,18 +461,18 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Education</h3>
+            <h3 class="h3" data-i18n="resume.education">Education</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Systems Engineering / Computer Science</h4>
+              <h4 class="h4 timeline-item-title" data-i18n="resume.edu1.title">Systems Engineering / Computer Science</h4>
 
               <span>2020 — 2024</span>
 
-              <p class="timeline-text">
+              <p class="timeline-text" data-i18n="resume.edu1.desc">
                 Strong foundation in algorithms, data structures, databases, and software engineering principles.
               </p>
 
@@ -468,11 +480,11 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Odoo Certification / Specialized Training</h4>
+              <h4 class="h4 timeline-item-title" data-i18n="resume.edu2.title">Odoo Certification / Specialized Training</h4>
 
               <span>2022 — Present</span>
 
-              <p class="timeline-text">
+              <p class="timeline-text" data-i18n="resume.edu2.desc">
                 Advanced Odoo development, module architecture, ORM optimization, and fiscal localization modules.
               </p>
 
@@ -489,18 +501,18 @@
               <ion-icon name="briefcase-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3" data-i18n="resume.experience">Experience</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Backend & AI Engineer (Freelance / Contract)</h4>
+              <h4 class="h4 timeline-item-title" data-i18n="resume.exp1.title">Backend & AI Engineer (Freelance / Contract)</h4>
 
               <span>2023 — Present</span>
 
-              <p class="timeline-text">
+              <p class="timeline-text" data-i18n="resume.exp1.desc">
                 Developing Odoo fiscal modules (ContaFis), AI assistants with LangChain/RAG, and FastAPI microservices. 
                 Implementing TDD with 300+ test suites, Docker containerization, and CI/CD pipelines.
               </p>
@@ -509,11 +521,11 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Odoo Developer</h4>
+              <h4 class="h4 timeline-item-title" data-i18n="resume.exp2.title">Odoo Developer</h4>
 
               <span>2021 — 2023</span>
 
-              <p class="timeline-text">
+              <p class="timeline-text" data-i18n="resume.exp2.desc">
                 Custom module development for Latin American fiscal compliance. PostgreSQL optimization, 
                 automated testing, and client-facing technical support.
               </p>
@@ -522,11 +534,11 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Junior Python Developer</h4>
+              <h4 class="h4 timeline-item-title" data-i18n="resume.exp3.title">Junior Python Developer</h4>
 
               <span>2020 — 2021</span>
 
-              <p class="timeline-text">
+              <p class="timeline-text" data-i18n="resume.exp3.desc">
                 REST API development with FastAPI/Flask. Database design, unit testing, and Docker deployments.
               </p>
 
@@ -538,13 +550,13 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">Core Competencies</h3>
+          <h3 class="h3 skills-title" data-i18n="resume.competencies">Core Competencies</h3>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">Backend Architecture</h5>
+                <h5 class="h5" data-i18n="resume.comp1">Backend Architecture</h5>
                 <data value="90">90%</data>
               </div>
               <div class="skill-progress-bg">
@@ -554,7 +566,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">AI/ML Integration</h5>
+                <h5 class="h5" data-i18n="resume.comp2">AI/ML Integration</h5>
                 <data value="85">85%</data>
               </div>
               <div class="skill-progress-bg">
@@ -564,7 +576,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">Database Design</h5>
+                <h5 class="h5" data-i18n="resume.comp3">Database Design</h5>
                 <data value="88">88%</data>
               </div>
               <div class="skill-progress-bg">
@@ -574,7 +586,7 @@
 
             <li class="skills-item">
               <div class="title-wrapper">
-                <h5 class="h5">DevOps Practices</h5>
+                <h5 class="h5" data-i18n="resume.comp4">DevOps Practices</h5>
                 <data value="80">80%</data>
               </div>
               <div class="skill-progress-bg">
@@ -599,7 +611,7 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title" data-i18n="portfolio.title">Portfolio</h2>
         </header>
 
         <section class="projects">
@@ -607,19 +619,19 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn data-i18n="portfolio.filterAll">All</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Odoo</button>
+              <button data-filter-btn data-i18n="portfolio.filterOdoo">Odoo</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>AI/ML</button>
+              <button data-filter-btn data-i18n="portfolio.filterAI">AI/ML</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Backend</button>
+              <button data-filter-btn data-i18n="portfolio.filterBackend">Backend</button>
             </li>
 
           </ul>
@@ -628,7 +640,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-selecct-value data-i18n="portfolio.selectCategory">Select category</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -639,19 +651,19 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item data-i18n="portfolio.filterAll">All</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Odoo</button>
+                <button data-select-item data-i18n="portfolio.filterOdoo">Odoo</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>AI/ML</button>
+                <button data-select-item data-i18n="portfolio.filterAI">AI/ML</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Backend</button>
+                <button data-select-item data-i18n="portfolio.filterBackend">Backend</button>
               </li>
 
             </ul>
@@ -672,9 +684,9 @@
                   <img src="./assets/images/project-1.jpg" alt="ContaFis Odoo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">ContaFis Odoo</h3>
+                <h3 class="project-title" data-i18n="portfolio.project1.title">ContaFis Odoo</h3>
 
-                <p class="project-category">Odoo</p>
+                <p class="project-category" data-i18n="portfolio.project1.category">Odoo</p>
 
               </a>
             </li>
@@ -691,9 +703,9 @@
                   <img src="./assets/images/project-2.png" alt="ContaFis AI Assistant" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">ContaFis AI Assistant</h3>
+                <h3 class="project-title" data-i18n="portfolio.project2.title">ContaFis AI Assistant</h3>
 
-                <p class="project-category">AI/ML</p>
+                <p class="project-category" data-i18n="portfolio.project2.category">AI/ML</p>
 
               </a>
             </li>
@@ -710,14 +722,12 @@
                   <img src="./assets/images/project-3.jpg" alt="Hiresprint" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Hiresprint Platform</h3>
+                <h3 class="project-title" data-i18n="portfolio.project3.title">Hiresprint Platform</h3>
 
-                <p class="project-category">Backend</p>
+                <p class="project-category" data-i18n="portfolio.project3.category">Backend</p>
 
               </a>
             </li>
-
-            <!-- Additional placeholder projects can be added here -->
 
           </ul>
 
@@ -736,32 +746,32 @@
       <article class="contact" data-page="contact">
 
         <header>
-          <h2 class="h2 article-title">Contact</h2>
+          <h2 class="h2 article-title" data-i18n="contact.title">Contact</h2>
         </header>
 
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Get in touch</h3>
+          <h3 class="h3 form-title" data-i18n="contact.formTitle">Get in touch</h3>
 
           <form action="https://formspree.io/f/your-form-id" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input data-i18n-placeholder="contact.namePlaceholder">
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input data-i18n-placeholder="contact.emailPlaceholder">
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input data-i18n-placeholder="contact.messagePlaceholder"></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
+              <span data-i18n="contact.sendBtn">Send Message</span>
             </button>
 
           </form>
 
-          <p style="margin-top: 1.5rem; text-align: center; color: var(--on-background-60);">
-            Or reach me directly at <a href="mailto:eurickramiro.ospinovelasquez@gmail.com" style="color: var(--orange);">eurickramiro.ospinovelasquez@gmail.com</a>
+          <p style="margin-top: 1.5rem; text-align: center; color: var(--on-background-60);" data-i18n="contact.orEmail">
+            Or reach me directly at <a href="mailto:eurickramiro.ospinovelasquez@gmail.com" style="color: var(--tech-cyan);">eurickramiro.ospinovelasquez@gmail.com</a>
           </p>
 
         </section>
@@ -780,6 +790,11 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+
+  <!--
+    - i18n js link
+  -->
+  <script src="./assets/js/i18n.js"></script>
 
   <!--
     - ionicon link
