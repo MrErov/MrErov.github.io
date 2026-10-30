@@ -77,8 +77,7 @@ const I18n = (function() {
 
   function init() {
     const savedLang = localStorage.getItem('preferred-lang');
-    const browserLang = navigator.language.split('-')[0];
-    const initialLang = (savedLang || (browserLang === 'es' ? 'es' : 'en'));
+    const initialLang = (savedLang || 'en');
 
     loadTranslations(initialLang).then(() => {
       applyTranslations();
