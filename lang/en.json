@@ -102,11 +102,13 @@
     "selectCategory": "Select category",
     "project1": {
       "title": "ContaFis Odoo",
-      "category": "Odoo"
+      "category": "Odoo",
+      "meta": "337 automated tests · Python / Odoo"
     },
     "project2": {
       "title": "ContaFis AI Assistant",
-      "category": "AI/ML"
+      "category": "AI/ML",
+      "meta": "680 automated tests · LangChain / RAG"
     },
     "project3": {
       "title": "Private Enterprise Backend",
@@ -121,6 +123,6 @@
     "emailPlaceholder": "Email address",
     "messagePlaceholder": "Your Message",
     "sendBtn": "Send Message",
-    "orEmail": "Or reach me directly at eurickramiro.ospinovelasquez@gmail.com"
+    "orEmailPrefix": "Or reach me directly at"
   }
 }

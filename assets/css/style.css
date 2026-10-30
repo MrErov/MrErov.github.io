@@ -1965,4 +1965,24 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-top: 4px;
 }
 
+.project-meta {
+  display: inline-block;
+  color: var(--tech-cyan);
+  border: 1px solid var(--tech-cyan);
+  border-radius: 6px;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+  letter-spacing: 0.2px;
+  margin-left: 10px;
+  margin-top: 6px;
+  padding: 4px 10px;
+  cursor: help;
+  transition: var(--transition-1);
+}
+
+.project-meta:hover {
+  background: var(--tech-cyan);
+  color: var(--smoky-black);
+}
+
 }

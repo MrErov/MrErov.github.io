@@ -43,6 +43,15 @@ const I18n = (function() {
         el.placeholder = translation;
       }
     });
+
+    document.querySelectorAll('[data-i18n-title]').forEach(el => {
+      const key = el.getAttribute('data-i18n-title');
+      const translation = getNestedTranslation(key);
+      if (translation) {
+        el.title = translation;
+        el.setAttribute('aria-label', translation);
+      }
+    });
   }
 
   function getNestedTranslation(key) {
