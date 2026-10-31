@@ -66,32 +66,52 @@
   "resume": {
     "title": "Resume",
     "education": "Education",
-    "experience": "Experience",
-    "competencies": "Core Competencies",
+    "experience": "Professional Experience",
+    "certifications": "Certifications",
+    "skills": "Technical Skills",
     "edu1": {
-      "title": "Systems Engineering / Computer Science",
-      "desc": "Strong foundation in algorithms, data structures, databases, and software engineering principles."
+      "title": "Universidad Centroccidental \"Lisandro Alvarado\" (UCLA) — Telematics Engineering",
+      "dates": "2025 — Present",
+      "desc": "4th semester. Barquisimeto, Venezuela."
     },
     "edu2": {
-      "title": "Odoo Certification / Specialized Training",
-      "desc": "Advanced Odoo development, module architecture, ORM optimization, and fiscal localization modules."
+      "title": "Instituto Universitario Jesús Obrero (IUJO) — T.S.U. in Informatics",
+      "dates": "2021 — 2025",
+      "desc": "Higher University Technician in Informatics. Barquisimeto, Venezuela."
     },
     "exp1": {
-      "title": "Backend & AI Engineer (Freelance / Contract)",
-      "desc": "Developing Odoo fiscal modules (ContaFis), AI assistants with LangChain/RAG, and FastAPI microservices. Implementing TDD with 300+ test suites, Docker containerization, and CI/CD pipelines."
+      "title": "Hiresprint LLC — Backend Developer (Remote)",
+      "dates": "Mar. 2026 — Jul. 2026",
+      "desc": "AI-powered call automation (Shuttler): GPT-4 and ElevenLabs agents triggered by webhooks, processing +200 calls/day (-40% handling time). Real-time tracking: asynchronous module supporting +500 concurrent connections (-30% status tickets). Automated API integration pipeline (REST/JSON) for a mass web editor (+50% speed)."
     },
     "exp2": {
-      "title": "Odoo Developer",
-      "desc": "Custom module development for Latin American fiscal compliance. PostgreSQL optimization, automated testing, and client-facing technical support."
+      "title": "Binaural — Product Intern (Barquisimeto, VEN)",
+      "dates": "Nov. 2024 — Jan. 2025",
+      "desc": "Custom Python drivers for Odoo v17 integrating hardware peripherals with IoT and POS IoT modules. Query and logic flow optimization in Point of Sale (POS) and Accounting modules, managing tax logic and journal entries."
     },
     "exp3": {
-      "title": "Junior Python Developer",
-      "desc": "REST API development with FastAPI/Flask. Database design, unit testing, and Docker deployments."
+      "title": "Granjas de Minería Alloy — Operations Specialist (Barquisimeto, VEN)",
+      "dates": "Feb. 2022 — Nov. 2022",
+      "desc": "Supervised cryptocurrency mining infrastructure, monitored KPIs (Hashrate, temperature), and optimized operational efficiency."
     },
-    "comp1": "Backend Architecture",
-    "comp2": "AI/ML Integration",
-    "comp3": "Database Design",
-    "comp4": "DevOps Practices"
+    "cert1": {
+      "title": "CCNA: Enterprise Networking, Security, and Automation — Cisco / IUJO",
+      "dates": "2025"
+    },
+    "cert2": {
+      "title": "Linux SysAdmin in Action: Server Management and Protection (150 hours) — SellingOne",
+      "dates": "2025"
+    },
+    "skill1": "Backend & Python",
+    "skill1Items": "Python, FastAPI, Odoo v17/v19, Node.js, Pydantic, REST API creation and consumption.",
+    "skill2": "AI & Agents",
+    "skill2Items": "LangChain, LangGraph, LangSmith, RAG (ChromaDB), LLM integration (OpenAI, NVIDIA NIM), Prompt Engineering.",
+    "skill3": "Methodologies",
+    "skill3Items": "TDD (Test-Driven Development), SDD (Spec-Driven Development), ODD (Observation-Driven Development).",
+    "skill4": "Systems & DevOps",
+    "skill4Items": "Docker, Git, GitHub Actions (CI/CD), Webhooks, n8n, Linux Administration.",
+    "skill5": "Frontend (Full-stack)",
+    "skill5Items": "TypeScript, JavaScript, React, Next.js."
   },
   "portfolio": {
     "title": "Portfolio",

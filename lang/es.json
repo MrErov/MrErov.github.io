@@ -66,32 +66,52 @@
   "resume": {
     "title": "Currículum",
     "education": "Educación",
-    "experience": "Experiencia",
-    "competencies": "Competencias Clave",
+    "experience": "Experiencia Profesional",
+    "certifications": "Certificaciones",
+    "skills": "Competencias Técnicas",
     "edu1": {
-      "title": "Ingeniería de Sistemas / Ciencias de la Computación",
-      "desc": "Base sólida en algoritmos, estructuras de datos, bases de datos y principios de ingeniería de software."
+      "title": "Universidad Centroccidental \"Lisandro Alvarado\" (UCLA) — Ingeniería Telemática",
+      "dates": "2025 — Actualidad",
+      "desc": "4.° semestre. Barquisimeto, Venezuela."
     },
     "edu2": {
-      "title": "Certificación Odoo / Formación Especializada",
-      "desc": "Desarrollo avanzado en Odoo, arquitectura de módulos, optimización ORM y módulos de localización fiscal."
+      "title": "Instituto Universitario Jesús Obrero (IUJO) — T.S.U. en Informática",
+      "dates": "2021 — 2025",
+      "desc": "Técnico Superior Universitario en Informática. Barquisimeto, Venezuela."
     },
     "exp1": {
-      "title": "Ingeniero Backend & IA (Freelance / Contrato)",
-      "desc": "Desarrollo de módulos fiscales Odoo (ContaFis), asistentes IA con LangChain/RAG y microservicios FastAPI. Implementación de TDD con 300+ suites de tests, containerización Docker y pipelines CI/CD."
+      "title": "Hiresprint LLC — Desarrollador Backend (Remoto)",
+      "dates": "Marz. 2026 — Jul. 2026",
+      "desc": "Automatización de llamadas con IA (Shuttler): agentes GPT-4 y API de ElevenLabs activados por webhooks, procesando +200 llamadas/día (-40% tiempos de gestión). Seguimiento en tiempo real: módulo asíncrono con +500 conexiones simultáneas (-30% tickets de estado). Pipeline automatizado de integración API (REST/JSON) para editor web masivo (+50% velocidad)."
     },
     "exp2": {
-      "title": "Desarrollador Odoo",
-      "desc": "Desarrollo de módulos personalizados para cumplimiento fiscal latinoamericano. Optimización PostgreSQL, testing automatizado y soporte técnico a clientes."
+      "title": "Binaural — Pasante de Área de Producto (Barquisimeto, VEN)",
+      "dates": "Nov. 2024 — Ene. 2025",
+      "desc": "Desarrollo de drivers personalizados en Python para Odoo v17, integrando periféricos de hardware con módulos IoT y POS IoT. Optimización de consultas y flujos lógicos en Punto de Venta (POS) y Contabilidad, gestionando lógica de impuestos y asientos."
     },
     "exp3": {
-      "title": "Desarrollador Python Junior",
-      "desc": "Desarrollo de APIs REST con FastAPI/Flask. Diseño de bases de datos, testing unitario y despliegues con Docker."
+      "title": "Granjas de Minería Alloy — Especialista en Operaciones (Barquisimeto, VEN)",
+      "dates": "Feb. 2022 — Nov. 2022",
+      "desc": "Supervisión de infraestructura de minería de criptoactivos, monitoreo de KPIs (Hashrate, temperatura) y optimización de eficiencia operativa."
     },
-    "comp1": "Arquitectura Backend",
-    "comp2": "Integración IA/ML",
-    "comp3": "Diseño de Bases de Datos",
-    "comp4": "Prácticas DevOps"
+    "cert1": {
+      "title": "CCNA: Redes Empresariales, Seguridad y Automatización — Cisco / IUJO",
+      "dates": "2025"
+    },
+    "cert2": {
+      "title": "SysAdmin Linux en Acción: Gestión y Protección de Servidores (150 horas) — SellingOne",
+      "dates": "2025"
+    },
+    "skill1": "Backend & Python",
+    "skill1Items": "Python, FastAPI, Odoo v17/v19, Node.js, Pydantic, creación y consumo de APIs REST.",
+    "skill2": "IA & Agentes",
+    "skill2Items": "LangChain, LangGraph, LangSmith, RAG (ChromaDB), integración de LLMs (OpenAI, NVIDIA NIM), Prompt Engineering.",
+    "skill3": "Metodologías",
+    "skill3Items": "TDD (Test-Driven Development), SDD (Spec-Driven Development), ODD (Observation-Driven Development).",
+    "skill4": "Sistemas & DevOps",
+    "skill4Items": "Docker, Git, GitHub Actions (CI/CD), Webhooks, n8n, Administración Linux.",
+    "skill5": "Frontend (Full-stack)",
+    "skill5Items": "TypeScript, JavaScript, React, Next.js."
   },
   "portfolio": {
     "title": "Portafolio",
