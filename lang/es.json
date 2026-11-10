@@ -131,6 +131,11 @@
       "meta": "680 tests automatizados · LangChain / RAG"
     },
     "project3": {
+      "title": "Keel Nav",
+      "category": "Metodología",
+      "meta": "MIT · SDD + TDD + ODD · Agnóstica de harness"
+    },
+    "project4": {
       "title": "Backend Empresarial Privado",
       "category": "Privado / NDA",
       "nda": "Proyecto Empresarial Privado (NDA)"
